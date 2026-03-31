@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7b4bfb6-3c70-447e-9790-d36d92a2a72a" name="Changes" comment="Implement reservation fetching and display in Dashboard; refactor AppointmentCard component">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12246d31-c1b7-4a28-8698-2bed0e69c1c4/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12246d31-c1b7-4a28-8698-2bed0e69c1c4/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12246d31-c1b7-4a28-8698-2bed0e69c1c4/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12246d31-c1b7-4a28-8698-2bed0e69c1c4/storage_v2/_src_/schema/roomreservation.ETwoRw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12246d31-c1b7-4a28-8698-2bed0e69c1c4/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/M450_Test_Dokumentation/Dokumentation.docx" beforeDir="false" afterPath="$PROJECT_DIR$/M450_Test_Dokumentation/Dokumentation.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +21,7 @@
   <component name="CopilotPersistence">
     <persistenceIdMap>
       <entry key="_C:/Users/kentr/OneDrive - Kt. SG BLD/IMS/Module Jahr 3/Semester 2/M450/Abschlussprojekt/m40_ruumi_project" value="2x5bnFCHe2f9Evzz2W2Bo58lJR6" />
+      <entry key="_C:/Users/kentr/OneDrive - Kt. SG BLD/IMS/Module Jahr 3/Semester 2/M450/Abschlussprojekt/m450_ruumi_project" value="3Bi2lYpsUwc5nnzbe75WWIed85d" />
     </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -45,12 +49,12 @@
     &quot;assignee&quot;: &quot;CursedUser1291&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/CursedUser1291/m450_ruumi_project.git",
-    "accountId": "2fed8c75-96e1-4693-8d91-8d92f87bc7ec"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/CursedUser1291/m450_ruumi_project.git&quot;,
+    &quot;accountId&quot;: &quot;2fed8c75-96e1-4693-8d91-8d92f87bc7ec&quot;
   }
-}]]></component>
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -90,7 +94,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kentr/OneDrive - Kt. SG BLD/IMS/Module Jahr 3/Semester 2/M450/Abschlussprojekt/m40_ruumi_project",
+    "last_opened_file_path": "C:/Users/kentr/OneDrive - Kt. SG BLD/IMS/Module Jahr 3/Semester 2/M450/Abschlussprojekt/m450_ruumi_project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -153,6 +157,7 @@
       <workItem from="1751480385198" duration="1371000" />
       <workItem from="1751483421438" duration="3076000" />
       <workItem from="1774357951822" duration="1990000" />
+      <workItem from="1774957716964" duration="3492000" />
     </task>
     <task id="LOCAL-00001" summary="Add routing and authentication components for user login and signup">
       <option name="closed" value="true" />
