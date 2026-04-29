@@ -4,12 +4,14 @@ import backend.models.User;
 import backend.repositories.UserRepository;
 import backend.utils.PasswordHasher;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.annotation.Profile;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 import java.util.UUID;
 
 @Order(1)
+@Profile("!test")
 @Component
 public class UsersSeeder implements CommandLineRunner {
     private final UserRepository userRepository;

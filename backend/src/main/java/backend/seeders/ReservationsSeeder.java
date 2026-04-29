@@ -7,6 +7,7 @@ import backend.repositories.ReservationRepository;
 import backend.repositories.RoomRepository;
 import backend.repositories.UserRepository;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.annotation.Profile;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
@@ -16,6 +17,7 @@ import java.util.Optional;
 import java.util.UUID;
 
 @Order(2)
+@Profile("!test")
 @Component
 public class ReservationsSeeder implements CommandLineRunner {
     private final ReservationRepository reservationRepository;
